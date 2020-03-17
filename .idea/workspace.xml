@@ -19,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -54,7 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -117,6 +120,13 @@
     <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZkMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumerzk-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderZkMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,6 +242,7 @@
       <workItem from="1583813003758" duration="18457000" />
       <workItem from="1583913219981" duration="7183000" />
       <workItem from="1584151156039" duration="692000" />
+      <workItem from="1584429564649" duration="943000" />
     </task>
     <servers />
   </component>
@@ -251,22 +262,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1583678218485" />
-    <state width="954" height="349" key="GridCell.Tab.0.bottom" timestamp="1583931030973">
+    <state width="1237" height="325" key="GridCell.Tab.0.bottom" timestamp="1584430512226">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="954" height="349" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583931030973" />
-    <state width="954" height="349" key="GridCell.Tab.0.center" timestamp="1583931030973">
+    <state width="1237" height="325" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584430512226" />
+    <state width="1237" height="325" key="GridCell.Tab.0.center" timestamp="1584430512225">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="954" height="349" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583931030973" />
-    <state width="954" height="349" key="GridCell.Tab.0.left" timestamp="1583931030973">
+    <state width="1237" height="325" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584430512225" />
+    <state width="1237" height="325" key="GridCell.Tab.0.left" timestamp="1584430512224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="954" height="349" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583931030973" />
-    <state width="954" height="349" key="GridCell.Tab.0.right" timestamp="1583931030973">
+    <state width="1237" height="325" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584430512224" />
+    <state width="1237" height="325" key="GridCell.Tab.0.right" timestamp="1584430512225">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="954" height="349" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583931030973" />
+    <state width="1237" height="325" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584430512225" />
     <state width="954" height="349" key="GridCell.Tab.1.bottom" timestamp="1583931030973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -303,14 +314,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="228" y="6" key="Registry/0.0.1280.680@0.0.1280.680" timestamp="1583741749093" />
-    <state x="57" y="0" width="1171" height="680" key="SettingsEditor" timestamp="1583741566439">
+    <state x="57" y="0" width="1171" height="680" key="SettingsEditor" timestamp="1584429642262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="57" y="0" width="1171" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583741566439" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1584151162894">
+    <state x="57" y="0" width="1171" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584429642262" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1584429564265">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584151162894" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584429564265" />
     <state x="28" y="45" key="new project wizard" timestamp="1583922211978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
