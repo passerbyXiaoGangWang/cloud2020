@@ -23,6 +23,10 @@
     <module>cloud-providerconsul-payment8006</module>
     <module>cloud-consumerconsul-order80</module>
     <module>cloud-consumer-feign-order80</module>
+      <module>cloud-gateway-gateway9527</module>
+    <module>cloudalibaba-provider-payment9001</module>
+      <module>cloudalibaba-provider-payment9002</module>
+      <module>cloudalibaba-consumer-nacos-order83</module>
 
   </modules>
 
@@ -42,7 +46,6 @@
 
   <!-- 子模块继承之后，提供作用：锁定版本+子modlue不用写groupId和version     -->
   <dependencyManagement>
-
     <dependencies>
       <!-- spring boot 2.2.2   -->
       <dependency>
